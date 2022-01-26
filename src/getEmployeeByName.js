@@ -9,6 +9,4 @@ function getEmployeeByName(employeeName) {
   return data.employees.find(verifyName);
 }
 
-console.log(getEmployeeByName('Emery'));
-
 module.exports = getEmployeeByName;
