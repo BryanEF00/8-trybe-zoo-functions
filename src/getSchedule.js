@@ -64,6 +64,4 @@ function getSchedule(scheduleTarget) {
   return verifyInput(scheduleTarget);
 }
 
-console.log(daySchedule('Tuesday'));
-
 module.exports = getSchedule;
